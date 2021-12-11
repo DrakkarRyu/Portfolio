@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    box-shadow: 1px 1px 5px ;
+}
+
+body{
+    font-family: 'Pathway Gothic One', sans-serif;;
+    background-color: black;
+}
+
+.wrapper, .about-me, .portafolio{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.brand span{
+    color: red
+}
+
+.Menú {
+    
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.Menú li{
+    list-style: none;
+}
+
+.Menú a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.Menú .inicio{
+    color: turquoise;
+}
+
+.Menú a:hover {
+    background-color: purple;
+    color: white;
+    transition: ease-in 0.35s;
+    box-shadow: 1px 3px 11px -5px red;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 3em;
+}
+
+.portafolio-headings{
+    width: 100vw;
+    padding: 5em;
+}
+
+.portafolio-headings h2{
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.portafolio .container{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 1em;
+    text-align: center;
+}
+
+.card h3{
+    text-align: justify;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+.card_img{
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/music_store.jpg);
+    background-size: cover;
+}
+.card_img2{
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/suscription.jpg);
+    background-size: cover;
+}
+
+.card_title{
+    padding: 20px;
+}
+
+.projects-technologies{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects-technologies a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.projects-technologies i{
+    font-size: 1.5em;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    color: white;
+    margin-top: 200px;
+}
+
+@media screen and (max-width:915px){
+    .navbar{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;   
+    }
+    .Menú {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .Menú li{
+        font-size: 1em;
+    }
+
+    .footer{
+        margin-top: 450px;
+   }
+
+   .portafolio-headings h2{
+       margin-top: 3em;
+   }
+   .card h2{
+       font-size: 0.85em;
+   }
+   .card h3{
+       font-size: 0.8em;
+   }
+   .projects-technologies i{
+       font-size: 1em;
+   }
+   .card_img{
+       background-position: center;
+   }
+   .card_img2{
+    background-position: center;
+    }
+    .card{
+        height: 500px;
+    }
+}
+
