@@ -102,6 +102,11 @@ body{
     text-align: center;
 }
 
+.card_title a:link, h2{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .card h3{
     text-align: justify;
     margin: 30px;
