@@ -139,6 +139,18 @@ body{
     box-shadow: 1px 3px 11px -5px white;
 }
 
+.contact-icons{
+    margin-bottom: 100px;
+}
+
+.contact-icons i{
+    font-size: 1.5em;
+    display: flex;
+    margin: 15px;
+}
+.contact-icons p {
+    margin-left: 20px;
+}
 
 .footer{
     display: flex;
